@@ -1,2 +1,2 @@
 # explicació chatbot
-Aquest repositori es sobre un reposiori de fútbol
+Aquest repositori es sobre un chatbot de fútbol
