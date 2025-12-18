@@ -7,48 +7,6 @@ def respondre(pregunta, nom):
     # Passem la pregunta a minúscules per facilitar la comparació
     pregunta = pregunta.lower()
 
-    # --- FUNCIONALITATS ESPECIALS ---
-    if "pronostic" in pregunta or "resultat" in pregunta or "prediccio" in pregunta:
-        # Només dóna pronòstic si és del Barça, Madrid o clàssic
-        if ("barça" in pregunta) or ("madrid" in pregunta) or ("classic" in pregunta):
-            return (
-                f"El meu pronòstic per al pròxim clàssic és 2-1 pel Barça. "
-                f"I tu, {nom}, quin resultat creus que hi haurà?"
-            )
-        else:
-            return (
-                f"De moment només puc fer pronòstics del clàssic Barça–Madrid, {nom}. "
-                f"Vols que t’expliqui com veig aquest partit?"
-            )
-
-    elif "acudit" in pregunta or "broma" in pregunta:
-        return (
-            f"- Carinyo, estàs obsessionat amb el futbol i em fas falta.\n"
-            f"- Què? Falta? Falta? Si ni tan sols t'he tocat!"
-        )
-
-    elif "millor" in pregunta or "compara" in pregunta:
-        # Comprovem quins jugadors o equips es comparen
-        if ("messi" in pregunta and "cristiano" in pregunta) or ("ronaldo" in pregunta and "messi" in pregunta):
-            return (
-                f"És difícil triar, {nom}. Messi té més visió de joc i creativitat, "
-                f"mentre que Cristiano destaca pel seu físic i la seva mentalitat guanyadora."
-            )
-        elif "mbappé" in pregunta or "haaland" in pregunta:
-            return (
-                f"Mbappé és més ràpid i desequilibrant, {nom}, "
-                f"mentre que Haaland és un golejador pur amb molta potència dins l’àrea."
-            )
-        elif "barça" in pregunta and "madrid" in pregunta:
-            return (
-                f"El Barça aposta més pel joc col·lectiu i de possessió,"
-                f"mentre que el Madrid confia més en la intensitat i les transicions ràpides."
-            )
-        else:
-            return (
-                f"Depèn molt de què vulguis comparar, {nom}. "
-                f"Parlem de jugadors, equips o estils de joc?"
-            )
 
     # --- RESPOSTES NORMALS ---
     elif "hola" in pregunta:
