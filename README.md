@@ -4,7 +4,8 @@
 Aquest repositori tracta sobre un **chatbot de futbol** creat per interactuar amb els usuaris i respondre preguntes relacionades amb aquest esport, com ara equips, jugadors o competicions.
 
 ## Diagrama del funcionament del programa
-<img width="1910" height="1373" alt="Dibujo sin título(1)" src="https://github.com/user-attachments/assets/b19a4a82-9400-4aa9-915a-f563db57e73f" />
+![Dibujo sin título(1)](https://github.com/user-attachments/assets/6d603362-f0c6-44eb-9d16-3785c6e31782)
+
 
 
 ## Objectiu
